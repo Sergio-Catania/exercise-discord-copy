@@ -2,7 +2,7 @@
 
 :root{
     font-family: "Noto Sans", sans-serif;
-    font-size: spx;
+    font-size: 20px;
 }
 
 *{
@@ -27,6 +27,7 @@ img{
     align-items: center;
     gap: 1rem;
     padding: 3em 3em;
+    position: relative;
 }
 .text-image-section:nth-child(odd){
     flex-direction: row-reverse;
