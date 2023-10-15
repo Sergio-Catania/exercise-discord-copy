@@ -20,18 +20,43 @@ img{
     font-weight: 900;
 }
 
+body{
+    width: 100%;
+}
+
 .text-image-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: inline-flex;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
     padding: 3em 3em;
     position: relative;
+    width: 100%;
 }
 .text-image-section:nth-child(odd){
     flex-direction: row-reverse;
 }
 .text-image-section:nth-child(even){
     background-color: rgb(218, 218, 218);
+}
+#chillin{
+    padding: 2em;
+    background-color:rgb(218, 218, 218) ;
+}
+footer{
+    background-color: rgb(31, 31, 31);
+    
+}
+.link-utili{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.button1{
+background-color: 255 255 255;
+border-radius: 10;
+}
+.button2{
+    
 }
